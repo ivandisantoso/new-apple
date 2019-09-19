@@ -1,12 +1,34 @@
+.appleLogo{
+    vertical-align: top;
+    display: inline-block;
+    width: 33%;
+
+
+}
+
+.menuIcon{
+
+    vertical-align: top;
+    display: inline-block;
+    width: 33%;
+
+}
+
+.shoppingCart{
+
+    vertical-align: top;
+    display: inline-block;
+    width: 33%;
+
+}
 .section1{
     background-color: black;
-    width: 50%;
     height: auto;
 }
 
 .inline1{
     display: inline-block;
-    width: 30%;
+    width: 33%;
     vertical-align: top;
 }
 
@@ -15,6 +37,16 @@ body{
     color:white;
 }
 
-.menuHover:hover{
+.classHover:hover{
     opacity:0.5 ;
+}
+.classSearch{
+background-color: #282828;
+}
+
+input{
+  background-image: url("/img/search.svg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
