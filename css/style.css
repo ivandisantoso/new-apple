@@ -3,3 +3,18 @@
     width: 50%;
     height: auto;
 }
+
+.inline1{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+body{
+    background-color: black;
+    color:white;
+}
+
+.menuHover:hover{
+    opacity:0.5 ;
+}
