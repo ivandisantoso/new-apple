@@ -1,28 +1,64 @@
-.appleLogo{
-    vertical-align: top;
+*{
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+.topBar{
+    background-color: #000000;
+}
+.menuIcon{
+    vertical-align: top left;
     display: inline-block;
     width: 33%;
-
-
 }
 
-.menuIcon{
-
-    vertical-align: top;
+.appleLogo{
+    vertical-align: top center;
     display: inline-block;
     width: 33%;
-
 }
 
 .shoppingCart{
-
-    vertical-align: top;
-    display: inline-block;
+    vertical-align: top right;
+    display: inline;
     width: 33%;
+}
+
+.searchTopBar1{
+    background-color: #282828;
+}
+
+input{
+    background-image: url(/img/search.svg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left:17px;
+}
+
+.menuItems{
+    color:#ffffff; 
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+}
+h2{
+    font-size: 1.5em;
+    text-align: center;
 
 }
+h3{
+    font-size: 1.17em;
+    text-align: center;
+}
+
 .section1{
     background-color: black;
+    color: #ffffff;
+
+}
+.mainItem{
+    background-image: url(/img/iphone11pro.jpg);
     height: auto;
 }
 
@@ -32,21 +68,10 @@
     vertical-align: top;
 }
 
-body{
-    background-color: black;
-    color:white;
-}
-
 .classHover:hover{
     opacity:0.5 ;
 }
-.classSearch{
-background-color: #282828;
-}
 
-input{
-  background-image: url("/img/search.svg");
-  background-position: left top;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
+
+.
+
