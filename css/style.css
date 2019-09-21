@@ -29,10 +29,10 @@
 
 input{
     background-image: url(/img/search.svg);
-    background-position: left top;
+    /* background-position: left top; */
     background-repeat: no-repeat;
     background-size: contain;
-    padding-left:17px;
+    padding-left:20px;
 }
 
 .menuItems{
